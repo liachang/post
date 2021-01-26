@@ -335,7 +335,7 @@ tr,th,td,thead,tbody,
 ## A：
 
 <details>
-</details>
+
 
 ```
 meta标签: title\description\keywords
@@ -353,5 +353,32 @@ h1-h6标签：浏览器会自动地在标题的前后添加空行。请确保将
 
 ```
 WebSocket 是 HTML5 开始提供的一种在单个 TCP 连接上进行全双工通讯的协议。
+```
+
+## Q：Web标准
+
+## A：
+
+```
+结构层、表现层、行为层
+```
+
+## Q：补充标签
+
+## A：
+
+```
+<hr> 水平线
+<base target='_blank'/> 设置整体链接的打开状态
+<tabel>表格
+<th><tr><td><caption><rowspan><colspan>
+<thead><tfoot><tbody>
+表单
+<input type\value\name\checked>
+<label><textarea><select>
+表单域
+<form action method name>
+xxx
+</form>
 ```
 
