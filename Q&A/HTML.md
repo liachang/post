@@ -2,7 +2,6 @@
 ## A:
 
 <details>
-
 1.语义化标签
 
 ![](https://s3.ax1x.com/2020/11/23/DYNPpQ.png)
@@ -52,7 +51,7 @@ input 和 img 可以设置宽高，因为是替换元素
 例如：
 <img> 根据 src 属性来读取图片信息并显示出来
 <input> 根据标签的 type 属性来决定是显示输入框，还是单选按钮。
-替换元素有：<img>、<input>、<textarea>、<select>、<object>。
+替换元素有：<img>、<input>
 HTML 大多数元素都是不可替换的，即其内容直接展现给浏览器。
 例如：
 <p> 直接全部展示
@@ -381,4 +380,16 @@ WebSocket 是 HTML5 开始提供的一种在单个 TCP 连接上进行全双工�
 xxx
 </form>
 ```
+
+## Q：浏览器
+
+## A：
+
+```
+浏览器分为渲染引擎和js引擎
+渲染引擎用于解析html,css，俗称内核，如blink,webkit
+js引擎用于解析js，如v8
+```
+
+
 
